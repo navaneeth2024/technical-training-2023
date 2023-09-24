@@ -1,12 +1,10 @@
 //fcatorial using recursion
 #include<stdio.h>
 int factorial(int num){
-    if(num==0){
+    if(num==0)
         return 1;
-    }
-    else{
+    else
         return num*factorial(num-1);
-    }
 }
 int main(){
     int n,fact=1;
